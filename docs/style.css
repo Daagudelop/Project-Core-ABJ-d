@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", system-ui, sans-serif;
+  background: radial-gradient(circle at top, #0f172a, #020617);
+  color: #e5e7eb;
+  line-height: 1.7;
+}
+
+header {
+  padding: 70px 20px 40px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  background: linear-gradient(90deg,#38bdf8,#a855f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header p {
+  margin-top: 15px;
+  color: #94a3b8;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 15px;
+  background: rgba(15,23,42,.7);
+  backdrop-filter: blur(8px);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+nav a {
+  text-decoration: none;
+  color: #38bdf8;
+  font-weight: 600;
+  transition: .3s;
+}
+
+nav a:hover {
+  color: #a855f7;
+}
+
+section {
+  max-width: 1000px;
+  margin: auto;
+  padding: 60px 25px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  border-left: 5px solid #38bdf8;
+  padding-left: 15px;
+}
+
+.card {
+  background: linear-gradient(135deg,#020617,#0f172a);
+  border-radius: 16px;
+  padding: 25px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(56,189,248,.2);
+  box-shadow: 0 0 30px rgba(56,189,248,.07);
+}
+
+.card h3 {
+  color: #38bdf8;
+  margin-bottom: 10px;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #a855f7;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 40px 20px;
+  color: #94a3b8;
+  font-size: .9rem;
+}
